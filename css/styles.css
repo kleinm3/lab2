@@ -4,4 +4,32 @@
 
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
+body {
+	background-image: url(../img/texture-light.ping);
+	background-repeat: repeat;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px; 
+	padding: 10px;
+}
 
+.main-pagebox {
+	width: 80%;
+	background-color: FFF;
+	margin: 0 auto; /*Horizontal centering*/
+	box-shadow: 1px 1px 3px;
+}
+
+.company {
+	font-family: 'Boogaloo';
+	font-size: 36px;
+	color: #116189; 
+}
+
+nav ul {
+	background-color: #D74710;
+
+}
+
+nav li {
+	display: inline-block;
+}
