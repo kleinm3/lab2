@@ -25,6 +25,15 @@ body {
 	color: #116189; 
 }
 
+.motto {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 120%;
+}
+
+.motto:hover {
+	color: #FF9D45;
+}
+
 nav ul {
 	background-color: #D74710;
 
