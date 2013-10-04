@@ -42,3 +42,27 @@ nav ul {
 nav li {
 	display: inline-block;
 }
+
+.factory {
+	float: left;
+	margin-right: 20px;
+}
+
+.shipping {
+	float: right;
+	margin-left: 20px
+}
+
+.footer {
+	border-style: solid;
+	border-top: double thick #C0C0C0;
+	font-size: 80%;
+}
+
+.copyright {
+	font-size: 80%;
+}
+/*p {
+	border-style: solid;
+	border-top: thin #ff0000;
+}*/
