@@ -26,12 +26,9 @@ body {
 }
 
 .motto {
+	padding: 10px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 120%;
-}
-
-.motto:hover {
-	color: #FF9D45;
 }
 
 nav ul {
@@ -41,6 +38,22 @@ nav ul {
 
 nav li {
 	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 10px; 
+	font-weight: bold;
+	color: #FFF;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FF9D45;
 }
 
 .factory {
@@ -77,11 +90,11 @@ nav li {
 
 .person {
 	float: left;
-	margin-right: 20px;
+	margin-right: 18px;
 }
 
 .names{
 	font-family: 'Boogaloo';
-	font-size: 20px;
+	font-size: 18px;
 	color: #116189;
 }
