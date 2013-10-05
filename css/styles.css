@@ -62,7 +62,26 @@ nav li {
 .copyright {
 	font-size: 80%;
 }
-/*p {
-	border-style: solid;
-	border-top: thin #ff0000;
-}*/
+
+.story {
+	font-family: 'Boogaloo';
+	color: #116189;
+	font-size: 36px;
+}
+
+.team {
+	font-family: 'Boogaloo';
+	color: #116189;
+	font-size: 36px;
+}
+
+.person {
+	float: left;
+	margin-right: 20px;
+}
+
+.names{
+	font-family: 'Boogaloo';
+	font-size: 20px;
+	color: #116189;
+}
