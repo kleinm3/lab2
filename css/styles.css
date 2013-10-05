@@ -5,7 +5,7 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 body {
-	background-image: url(../img/texture-light.ping);
+	background-image: url(../img/texture-light.png);
 	background-repeat: repeat;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px; 
@@ -17,6 +17,12 @@ body {
 	background-color: FFF;
 	margin: 0 auto; /*Horizontal centering*/
 	box-shadow: 1px 1px 3px;
+}
+
+.gears {
+	position: absolute;
+	left: 25px;
+	top: 25px;
 }
 
 .company {
@@ -32,6 +38,8 @@ body {
 }
 
 nav ul {
+	box-shadow: 1px 1px 1px;
+	border-radius: 5px;
 	background-color: #D74710;
 
 }
@@ -68,7 +76,8 @@ nav a:hover {
 
 .footer {
 	border-style: solid;
-	border-top: double thick #C0C0C0;
+	border-top: thin;
+	border-top-color: #C0C0C0;
 	font-size: 80%;
 }
 
