@@ -76,7 +76,7 @@ nav a:hover {
 
 .footer {
 	border-style: solid;
-	border-top: thin;
+	border-top: 1px solid;
 	border-top-color: #C0C0C0;
 	font-size: 80%;
 }
