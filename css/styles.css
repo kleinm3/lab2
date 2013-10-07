@@ -14,7 +14,8 @@ body {
 
 .main-pagebox {
 	width: 80%;
-	background-color: FFF;
+	height: 80%;
+	background-color: #FFF;
 	margin: 0 auto; /*Horizontal centering*/
 	box-shadow: 1px 1px 3px;
 }
@@ -74,12 +75,6 @@ nav a:hover {
 	margin-left: 20px
 }
 
-.footer {
-	border-style: solid;
-	border-top: 1px solid;
-	border-top-color: #C0C0C0;
-	font-size: 80%;
-}
 
 .copyright {
 	font-size: 80%;
@@ -106,4 +101,54 @@ nav a:hover {
 	font-family: 'Boogaloo';
 	font-size: 18px;
 	color: #116189;
+}
+
+.banner {
+	width: 75%;
+	border-radius: 5px;
+	margin: 0 auto;
+	background-color: #FBEAE3;
+}
+
+.gearsText {
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: bold; 
+	float: left;
+	
+}
+
+.gearpics {
+	margin-right: 12px;
+	height: 30px;
+	width: 30px;
+	float: left;
+}
+
+.superwidget {
+	margin-right: 30px;
+	height: 30px;
+	width: 30px;
+	float: left;
+}
+
+.funfact {
+	font-family: sans-serif;
+	font-size: 12px;
+	text-align: left;
+}
+
+.font {
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: left;
+}
+
+
+.footer {
+	border-style: solid;
+	border-top: 1px solid;
+	border-top-color: #C0C0C0;
+	font-size: 80%;
 }
